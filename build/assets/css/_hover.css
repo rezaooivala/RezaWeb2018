@@ -1,0 +1,96 @@
+figure.effect-duke {
+	overflow: hidden;
+	margin: 0 auto;
+	/* background: linear-gradient(-45deg, #fff 0%,#62FAA8 100%); */
+	background: #62FAA8;
+	width: 90%;
+
+	padding-bottom: 3px;
+
+}
+
+figure.effect-duke img,
+figure.effect-duke p {
+	margin: 0;
+	padding: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-duke:hover img {
+
+	opacity: 0.1;
+	/* -webkit-transform: scale3d(1.1,1.1,1); */
+	transform: scale3d(1.1,1.1,1);
+}
+
+figcaption {
+  margin-bottom: -95px;
+}
+
+figure.effect-duke h2 {
+	opacity: 0;
+	position: relative;
+	top: -110px;
+	left: 30px;
+
+	font-weight: normal;
+	color: #0031FF;
+	font-size: 25px;
+}
+
+figure.effect-duke:hover h2 {
+	opacity: 1;
+	position: relative;
+	top: -110px;
+	left: 30px;
+
+	font-weight: normal;
+	color: #0031FF;
+	font-size: 25px;
+}
+
+figure.effect-duke p {
+	opacity: 0;
+	position: relative;
+	top: -135px;
+	left: 30px;
+
+	font-weight: lighter;
+	color: #0031FF;
+	font-size: 16px;
+
+}
+
+figure.effect-duke:hover p {
+	opacity: 1;
+	position: relative;
+	top: -135px;
+	left: 30px;
+
+	font-weight: lighter;
+	color: #0031FF;
+	font-size: 16px;
+
+}
+
+/* figure.effect-duke:hover h2,
+figure.effect-duke:hover p {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+} */
+
+/* Media queries */
+/* @media screen and (max-width: 50em) {
+	.content {
+		padding: 0 10px;
+		text-align: center;
+	}
+	.grid figure {
+		display: inline-block;
+		float: none;
+		margin: 10px auto;
+		width: 100%;
+	}
+} */

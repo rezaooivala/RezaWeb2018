@@ -346,97 +346,76 @@ hr {
 
 body {
   background: #F5F5F5;
-  font: Roboto; }
+  font: Roboto;
+  max-width: 1100px;
+  margin: 0 auto; }
+  body li {
+    list-style: none; }
 
-.main-nav {
-  padding-left: 0px;
-  display: flex; }
+#header .wrap {
+  position: fixed;
+  z-index: 10; }
+  #header .wrap .main-nav {
+    display: flex;
+    background: #F5F5F5;
+    padding: 0;
+    padding: 20px 0;
+    margin-top: 0;
+    margin-left: 55px; }
+    #header .wrap .main-nav li:first-child {
+      margin-right: 278px; }
+    #header .wrap .main-nav a {
+      color: #0031FF;
+      margin-left: 16px;
+      display: block;
+      padding: 10px 15px 0px 15px;
+      border-bottom: solid 2px;
+      border-color: #46FF9B; }
+      @media only screen and (max-width: 930px) {
+        #header .wrap .main-nav a {
+          font-size: 12px; } }
+    #header .wrap .main-nav a.logo {
+      margin-left: 0px;
+      border: none;
+      color: #0031FF;
+      padding: 0px; }
+      #header .wrap .main-nav a.logo div.reza {
+        font-size: 24px;
+        margin-bottom: -7px;
+        font-weight: bold; }
+      #header .wrap .main-nav a.logo span.365 {
+        font-size: 14px; }
+      #header .wrap .main-nav a.logo span.art {
+        color: #A32FFB; }
+      #header .wrap .main-nav a.logo span.code {
+        color: #46FF9B; }
+      #header .wrap .main-nav a.logo span.life {
+        color: #FF6C00; }
+    @media only screen and (max-width: 930px) {
+      #header .wrap .main-nav a.logo div.reza {
+        font-size: 18px; }
+      #header .wrap .main-nav span.365 {
+        font-size: 12px; } }
 
-li {
-  list-style: none; }
-
-li:first-child {
-  margin-right: auto; }
-
-div.wrap {
-  width: 90%;
-  margin: 10px auto; }
-
-a {
-  color: #0031FF;
-  margin-left: 16px;
-  display: block;
-  padding: 10px 15px 0px 15px;
-  border-bottom: solid 2px;
-  border-color: #46FF9B; }
-
-a.logo {
-  margin-left: 0px;
-  border: none;
-  color: #0031FF;
-  padding: 0px;
-  font-weight: bold;
-  font-size: 24px; }
-
-span.smallSentence {
-  font-size: 14px; }
-
-span.art {
-  color: #A32FFB; }
-
-span.code {
-  color: #46FF9B; }
-
-span.life {
-  color: #FF6C00; }
-
-.kiboko {
-  width: 90%;
-  margin: 0 auto;
-  padding: 10px 0px;
-  background: #F1F2F2; }
+#First {
+  margin-top: 90px; }
 
 #large {
   overflow: auto; }
   #large img {
-    display: block;
-    margin: 0 auto;
-    width: 90%; }
-
-#small ul {
-  width: 90%;
-  padding: 0;
-  margin: 10px auto;
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-column-gap: 10px; }
-  #small ul li {
-    padding: 10px 0; }
-  #small ul li.left {
-    background: #B5B5B5;
-    margin: 0; }
-  #small ul li.middle {
-    background: #B7A377;
-    margin: 0; }
-  #small ul li.right {
-    background: #46FF9B;
-    margin: 0; }
-  #small ul img {
     display: flex;
-    margin: auto;
-    width: 60%; }
+    margin: 0 auto;
+    width: 100%; }
 
-.processing {
-  margin-top: 50px; }
-
-#p ul {
-  width: 90%;
-  padding: 0;
-  margin: 10px auto;
+#arrange .cards {
+  margin: 0 auto;
+  padding-top: 10px;
   display: grid;
   grid-template-columns: repeat(3, auto);
-  grid-column-gap: 10px; }
-  #p ul img {
-    display: block;
-    margin: auto;
+  grid-column-gap: 20px;
+  width: 90%; }
+  #arrange .cards img {
     width: 100%; }
+
+.divider {
+  margin-top: 50px; }

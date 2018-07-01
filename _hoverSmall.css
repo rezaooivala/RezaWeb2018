@@ -1,0 +1,72 @@
+figure.effect-duke-small {
+	overflow: hidden;
+	margin: 0 auto;
+	background: #62FAA8;
+	width: 100%;
+
+}
+
+figure.effect-duke-small img,
+figure.effect-duke-small p {
+	margin: 0;
+	padding: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-duke-small:hover img {
+
+	opacity: 0.1;
+	/* -webkit-transform: scale3d(1.1,1.1,1); */
+	transform: scale3d(1.1,1.1,1);
+}
+
+figcaption {
+  margin-bottom: -95px;
+}
+
+figure.effect-duke-small h2 {
+	opacity: 0;
+	position: relative;
+	top: -110px;
+	left: 30px;
+
+	font-weight: normal;
+	color: #0031FF;
+	font-size: 25px;
+}
+
+figure.effect-duke-small:hover h2 {
+	opacity: 1;
+	position: relative;
+	top: -110px;
+	left: 30px;
+
+	font-weight: normal;
+	color: #0031FF;
+	font-size: 25px;
+}
+
+figure.effect-duke-small p {
+	opacity: 0;
+	position: relative;
+	top: -135px;
+	left: 30px;
+
+	font-weight: lighter;
+	color: #0031FF;
+	font-size: 16px;
+
+}
+
+figure.effect-duke-small:hover p {
+	opacity: 1;
+	position: relative;
+	top: -135px;
+	left: 30px;
+
+	font-weight: lighter;
+	color: #0031FF;
+	font-size: 16px;
+
+}
