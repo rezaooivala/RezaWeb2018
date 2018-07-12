@@ -1,54 +1,54 @@
 body
   background: #F5F5F5
-  font: Roboto
+  font-family: 'Roboto', sans-serif
   max-width: 1100px
   margin: 0 auto
-
   li
     list-style: none
+  img
+    display: flex
+    margin: 0 auto
+    width: 100%
+  h2
+    margin: 0
+    padding: 0
+  p
+    margin: 0
+    padding: 0
 
-
-
-#header .wrap
-  position: fixed
-  z-index: 10
-
-  .main-nav
+.main-nav
+    position: fixed
+    z-index: 10
     display: flex
     background: #F5F5F5
-    padding: 0
-    padding: 20px 0
-    margin-top: 0
-    margin-left: 55px
-
+    margin: 0
+    padding-top: 15px
+    padding-bottom: 10px
 
     li:first-child
-      margin-right: 278px
+      margin-right: 305px
 
     a
-      color: #0031FF
       margin-left: 16px
+      color: #0031FF
       display: block
       padding: 10px 15px 0px 15px
       border-bottom: solid 2px
       border-color: #46FF9B
-
-
-
       @media only screen and (max-width:930px)
         font-size: 12px
+
     a.logo
-        margin-left: 0px
+
         border: none
         color: #0031FF
         padding: 0px
-
+        margin-left: 0
 
         div.reza
           font-size: 24px
           margin-bottom: -7px
           font-weight: bold
-
 
         span.365
              font-size: 14px
@@ -63,35 +63,22 @@ body
             color: #FF6C00
 
     @media only screen and (max-width:930px)
-      a.logo div.reza
-        font-size: 18px
-      span.365
-        font-size: 12px
-
-
-#First
-  margin-top: 90px
+        a.logo div.reza
+          font-size: 18px
+        span.365
+          font-size: 12px
 
 #large
-    overflow: auto
-    img
-      display: flex
-      margin: 0 auto
-      width: 100%
+  margin-top: 80px
+  margin-bottom: -25px
 
-#arrange .cards
-  margin: 0 auto
-  padding-top: 10px
-  display: grid
-  grid-template-columns: repeat(3,auto)
-  grid-column-gap: 20px
-  width: 90%
+#largeA
+  margin-top: 10px
+  margin-bottom: -25px
 
 
-  img
-    width: 100%
+.cards
+  display: flex
 
-
-
-.divider
-      margin-top: 50px
+.s1
+  margin: 0 -77px
